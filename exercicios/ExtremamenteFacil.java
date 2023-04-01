@@ -2,8 +2,7 @@ package exercicios;
 
 import java.util.Scanner;
 
-/**
- * 
+/* 
  * Extremamente Básico
 Adaptado por Neilor Tonin, URI  Brasil
 
@@ -21,11 +20,11 @@ conforme o exemplo abaixo.
  */
 public class ExtremamenteFacil {
     public static void main(String[] args) {
-        Scanner escrever = new Scanner(System.in);
+        Scanner escreve = new Scanner(System.in);
         System.out.print("Digite um número: ");
-        int numero = escrever.nextInt();
+        int numero = escreve.nextInt();
         System.out.print("Digite um número: ");
-        int numero2 = escrever.nextInt();
+        int numero2 = escreve.nextInt();
         int soma = numero + numero2;
 
         System.out.printf("O valor de: " + numero +" + "+ numero2 + " = " + soma);
